@@ -2,39 +2,10 @@
 <html lang="en-us">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unity WebGL Build</title>
-
-  
-    <script type="module">
-      // Import the functions you need from the SDKs you need
-      import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
-      import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-analytics.js";
-      // TODO: Add SDKs for Firebase products that you want to use
-      // https://firebase.google.com/docs/web/setup#available-libraries
-    
-      // Your web app's Firebase configuration
-      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-      const firebaseConfig = {
-        apiKey: "AIzaSyBSRrlwpu42vmOxs6Up3Pw3_4N_hXcDl6E",
-        authDomain: "memory-game-2d.firebaseapp.com",
-        projectId: "memory-game-2d",
-        storageBucket: "memory-game-2d.firebasestorage.app",
-        messagingSenderId: "920788811139",
-        appId: "1:920788811139:web:f44d513744c0824cac4ab6",
-        measurementId: "G-C9EJ0Z6VXK"
-      };
-    
-      // Initialize Firebase
-      try {
-        firebase.initializeApp(firebaseConfig);
-        console.log("Firebase initialized successfully");
-        const analytics = firebase.analytics();
-        console.log("Firebase Analytics initialized:", analytics);
-    } catch (error) {
-        console.error("Error initializing Firebase:", error);
-    }
-    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity Web Player | memory_game_2d</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
